@@ -70,8 +70,7 @@ bool is_taking_picture() {
 uint16_t get_picture_count() {
   uint8_t reg1 = rom_read(ROM_ADDR_PIC_A_REG);
   uint8_t reg2 = rom_read(ROM_ADDR_PIC_B_REG);
-  uint16_t res = reg1 + (255 * reg2);
-  Serial.println(res);
+  uint16_t res = reg1 + (256 * reg2);
   return res;
 }
 

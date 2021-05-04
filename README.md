@@ -8,3 +8,4 @@ todo:
 - add weather station to the camera
 - add RTC to arduino so it knows what time it is
 - add precise reference voltage generator
+- count errors: if PI reported ready to die before 45 seconds, no picture has been taken (no internet?)

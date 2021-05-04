@@ -34,12 +34,14 @@ void relay_engage() {
   if (relay_state)
     return;
   digitalWrite(RELAY_PIN, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   turn_on_time = millis();
   relay_state = true;
 }
 
 void relay_disengage() {
   digitalWrite(RELAY_PIN, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   relay_state = false;
 }
 
@@ -55,7 +57,7 @@ void relay_tick() {
       return;
     }
     if (!comm_is_done()) {
-      buzzer_beep(3);
+      buzzer_beep(2);
       Serial.println(F("E: Camera is not busy and not done."));
       return;
     }
