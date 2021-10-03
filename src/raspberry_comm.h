@@ -1,8 +1,8 @@
 /*
     ** Odin - Camera Controller **
-    copyright (c) 2021 OxBlue part of Hexagon.
+    copyright (c) 2021 Raff Martinez-Marjanski.
     All rights reserved.
-    Author: Raff Martinez-Marjanski <rmartinez@oxblue.com>
+    Author: Raff Martinez-Marjanski <archangel.raffael@gmail.com>
 
     Handles communication between microcontroller
     and Raspberry Pi that takes the pictures.

@@ -1,8 +1,8 @@
 /*
     ** Odin - Camera Controller **
-    copyright (c) 2021 OxBlue part of Hexagon.
+    copyright (c) 2021 Raff Martinez-Marjanski.
     All rights reserved.
-    Author: Raff Martinez-Marjanski <rmartinez@oxblue.com>
+    Author: Raff Martinez-Marjanski <archangel.raffael@gmail.com>
 
     Designed to be used with Arduino Nano with 2KB of RAM
     Note that the memory cannot get above 800 bytes otherwise

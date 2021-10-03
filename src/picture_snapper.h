@@ -1,8 +1,8 @@
 /*
     ** Odin - Camera Controller **
-    copyright (c) 2021 OxBlue part of Hexagon.
+    copyright (c) 2021 Raff Martinez-Marjanski.
     All rights reserved.
-    Author: Raff Martinez-Marjanski <rmartinez@oxblue.com>
+    Author: Raff Martinez-Marjanski <archangel.raffael@gmail.com>
 
     Controls the state of the camera. Actual turning on/off
     is located in relay_switch.h
